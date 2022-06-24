@@ -1,0 +1,1 @@
+cmd_/home/grasshopper/ex3-lkm-hello/rootkit.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/grasshopper/ex3-lkm-hello/rootkit.ko /home/grasshopper/ex3-lkm-hello/rootkit.prelink.o /home/grasshopper/ex3-lkm-hello/rootkit.mod.o;  true

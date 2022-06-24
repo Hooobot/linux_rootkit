@@ -1,0 +1,1 @@
+cmd_/home/grasshopper/ex3-lkm-hello/Module.symvers := sed 's/\.ko$$/.prelink\.o/' /home/grasshopper/ex3-lkm-hello/modules.order | scripts/mod/modpost  -a  -o /home/grasshopper/ex3-lkm-hello/Module.symvers -e -i Module.symvers  -N -T -

@@ -1,0 +1,1 @@
+cmd_/home/grasshopper/ex3-lkm-hello/rootkit.prelink.o := ld -m elf_x86_64   -r -o /home/grasshopper/ex3-lkm-hello/rootkit.prelink.o  --whole-archive /home/grasshopper/ex3-lkm-hello/rootkit.o  ; ./tools/objtool/objtool orc generate  --module  --lto --ibt  --no-fp   --retpoline  --uaccess   --sls /home/grasshopper/ex3-lkm-hello/rootkit.prelink.o
